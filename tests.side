@@ -1,0 +1,1392 @@
+{
+  "id": "b53adf07-44d2-455b-898d-3cc5869ebbee",
+  "version": "1.1",
+  "name": "tests",
+  "url": "https://www.piletilevi.ee",
+  "tests": [{
+    "id": "66d1ba84-59a6-4edb-bb2f-2988804d710d",
+    "name": "FR1_correct",
+    "commands": [{
+      "id": "698e640a-db1f-4bde-8960-f7e4e7565145",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa6792e3-cb0c-40b6-ac20-ed2214171612",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a37e3a91-43af-4097-931e-760dff87ea03",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c012fc-6389-4d13-8ab0-0d2521f4bfc3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.account_register_username", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "bpoldoja"
+    }, {
+      "id": "da880cd4-d754-401e-b4f8-03683bb75a70",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.account_register_password", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "minuparool1"
+    }, {
+      "id": "27792a3f-5b8e-4f98-92c5-fde72b7ce9a1",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input[name=\"password2\"]", "css"],
+        ["css=.account_register_password2", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "minuparool1"
+    }, {
+      "id": "112325b9-3e2c-43aa-8495-d792ec368edf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.account_register_email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "berit642@gmail.com"
+    }, {
+      "id": "85283f29-d7e6-4786-aa6d-6cbb2be9c739",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=input[name=\"phone\"]", "css"],
+        ["css=.account_register_phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "56205223"
+    }, {
+      "id": "5b9104a4-9478-4b98-93f5-da5cac9eac71",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[5]",
+      "targets": [
+        ["css=div.recaptcha-checkbox-checkmark", "css"],
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5c89071-8b33-4971-a757-545317f32a5e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account_register_button",
+      "targets": [
+        ["css=.account_register_button", "css:finder"],
+        ["xpath=//input[@value='Registreeru']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "280248cb-f236-4b4f-b173-4bc790918b03",
+    "name": "FR1_error",
+    "commands": [{
+      "id": "7430dd73-e50f-46e9-a946-0ed5d950897f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb07a31f-0c41-4fcc-816a-0b4799670e32",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "637a48ff-7ae8-46d6-90dc-ec3831fa3737",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8fcff86-fd27-41d0-9bd5-08f2ee211cb7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.account_register_username", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "kasutajanimi1234"
+    }, {
+      "id": "769c7971-8fee-4eb0-a3e0-49b8859d54af",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.account_register_password", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "minuparool1"
+    }, {
+      "id": "2063f960-9421-4a94-aa0b-7c13c25886cd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input[name=\"password2\"]", "css"],
+        ["css=.account_register_password2", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "minuparool1"
+    }, {
+      "id": "8f1e5242-da23-4ff5-8702-ffb0fe149caa",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.account_register_email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "487ba079-c3bc-4d5c-9ceb-7933b76e9f21",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=input[name=\"phone\"]", "css"],
+        ["css=.account_register_phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "56205223"
+    }, {
+      "id": "cdc7f111-08df-442e-8bd4-d390142688ab",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[5]",
+      "targets": [
+        ["css=div.recaptcha-checkbox-checkmark", "css"],
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fac54b8f-26ff-4a1d-a5d9-e0a349ed2e3c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account_register_button",
+      "targets": [
+        ["css=.account_register_button", "css:finder"],
+        ["xpath=//input[@value='Registreeru']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1d6ba318-d62d-4191-97b0-3f8219eaf7ab",
+    "name": "FR2_correct",
+    "commands": [{
+      "id": "8151dbe6-91ef-4dd3-b498-837cda7c5f09",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06ea676-dfae-4384-9b4d-9e3458552d4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c232214-c248-40e0-ba57-fbc5a687c4e0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.slidingtabs_item:nth-child(4)",
+      "targets": [
+        ["css=.slidingtabs_item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Festival')]", "xpath:link"],
+        ["xpath=//div[@id='module_203586']/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.piletilevi.ee/est/piletid/festival/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f4b7c92a-73c4-4e8a-8c59-cfdc344a4170",
+    "name": "FR2_error",
+    "commands": [{
+      "id": "0f801be8-a83f-4cf7-8f15-5b67e2f9219f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b77a1639-938d-4b5a-a1f0-aa542263c4c7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3609d7b-bb4c-4609-bd0d-13a0794f81fb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.slidingtabs_item:nth-child(3)",
+      "targets": [
+        ["css=.slidingtabs_item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teater')]", "xpath:link"],
+        ["xpath=//div[@id='module_203586']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.piletilevi.ee/est/piletid/teater/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bae2354a-808d-4271-8a01-9204efabf643",
+    "name": "FR3_correct",
+    "commands": [{
+      "id": "83179f5a-fbe9-4b33-988f-494072d6d113",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4961802-7886-4283-9790-6a7790179fff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a221188-f42d-4050-a0f7-21a8b13433ef",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.item-in:nth-child(2) .search_component_input",
+      "targets": [
+        ["css=.item-in:nth-child(2) .search_component_input", "css:finder"],
+        ["xpath=(//input[@name='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "mikael"
+    }]
+  }, {
+    "id": "4e56f8db-bc68-4145-a4c1-f2be0e05d834",
+    "name": "FR3_error",
+    "commands": [{
+      "id": "d83ee7a1-81ff-42e3-8a32-c8e27bb133c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e4a29b2-1653-4b26-8baa-bedbce75ce2e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80151b80-3839-41a5-9bfd-5ae0cfd6e4c0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.item-in:nth-child(2) .search_component_input",
+      "targets": [
+        ["css=.item-in:nth-child(2) .search_component_input", "css:finder"],
+        ["xpath=(//input[@name='search'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/form/div/input", "xpath:position"]
+      ],
+      "value": "miki"
+    }]
+  }, {
+    "id": "6c6cba74-3f42-4fcc-a776-3774fa6fa2d4",
+    "name": "FR10_correct",
+    "commands": [{
+      "id": "65a3ea3a-754a-48fb-a154-22ba9970a733",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00066be5-e1bd-4a62-b698-3888bac34ae2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2da131d-2828-4b0a-a078-c52a4f1338a0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=bpoldoja:",
+      "targets": [
+        ["linkText=bpoldoja:", "linkText"],
+        ["css=.\\_header_personal_menu_account", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4559e013-f79c-48e3-8f5b-4a5394f51873",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Logi välja",
+      "targets": [
+        ["linkText=Logi välja", "linkText"],
+        ["css=a.sidemenu_item_link.sidemenu_item_link_logout", "css"],
+        ["css=.sidemenu_item_link_logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Logi välja')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//div[2]/div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "118c8b27-d508-47f6-b883-cb7cc9159c57",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.logout_back > .button_text",
+      "targets": [
+        ["css=.logout_back > .button_text", "css:finder"],
+        ["xpath=//div[6]/div[3]/div[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "03e47fc3-52d9-47e2-883a-a69e3d7e2018",
+    "name": "FR5_correct",
+    "commands": [{
+      "id": "a797d317-1ca4-43dd-afb4-823df7dd1ba1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79c2170d-d28b-4b99-987d-e48a8b25dd15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24c24f54-a895-4af9-a085-6a7af5f76794",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45da926a-7024-4238-b870-8795f5ceb02a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Minu konto",
+      "targets": [
+        ["linkText=Minu konto", "linkText"],
+        ["css=.sidemenu_item:nth-child(2) > .sidemenu_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Minu konto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#view=userdata')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "72dcafa1-3b0a-4aeb-9eb6-41ab5af972e7",
+    "name": "FR6_correct",
+    "commands": [{
+      "id": "650eb460-5e7b-47f2-aef7-7bcf87e62a16",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fb9dfac-c740-48bd-9800-eca90f9760bb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5537208f-8dc1-4777-a1bd-b4e49d8f4f61",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.items-row-2:nth-child(2) .\\_header_personal_menu",
+      "targets": [
+        ["css=.items-row-2:nth-child(2) .\\_header_personal_menu", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69336ac4-4b33-4706-8773-4dca5319a4bc",
+    "name": "FR7_correct",
+    "commands": [{
+      "id": "d84952b5-5efb-41c9-beb8-655d45fa95b6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65057bcb-99ec-4e10-bd99-d86a9bbde247",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "233e30c8-3e72-4776-a7fc-b944f6964cdf",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=bpoldoja:",
+      "targets": [
+        ["linkText=bpoldoja:", "linkText"],
+        ["css=.\\_header_personal_menu_account", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dfc7e35-f3e1-458d-94b0-0989b363788e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Minu konto",
+      "targets": [
+        ["linkText=Minu konto", "linkText"],
+        ["css=.sidemenu_item:nth-child(2) > .sidemenu_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Minu konto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#view=userdata')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf65421c-727f-4327-a22c-9a98dc2bedb8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=h1.userdata_datachange_row",
+      "targets": [
+        ["css=h1.userdata_datachange_row", "css"],
+        ["css=.userdata_block > .userdata_datachange_row", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc15ff0d-1173-4cb8-9136-979f00927d32",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_firstname",
+      "targets": [
+        ["name=userdata_lastname", "name"],
+        ["css=input[name=\"userdata_lastname\"]", "css"],
+        ["css=.userdata_lastname", "css:finder"],
+        ["xpath=//input[@name='userdata_lastname']", "xpath:attributes"],
+        ["xpath=//tr[11]/td/div/input", "xpath:position"]
+      ],
+      "value": "Poldoja"
+    }, {
+      "id": "f7719a9a-9a68-4b9f-a6b9-ba5f3d7a6e9e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_lastname",
+      "targets": [
+        ["name=userdata_lastname", "name"],
+        ["css=input[name=\"userdata_lastname\"]", "css"],
+        ["css=.userdata_lastname", "css:finder"],
+        ["xpath=//input[@name='userdata_lastname']", "xpath:attributes"],
+        ["xpath=//tr[11]/td/div/input", "xpath:position"]
+      ],
+      "value": "Poldoja"
+    }, {
+      "id": "78581c95-7b60-4b5a-a927-682f6768314f",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=tr:nth-child(31) .checkbox",
+      "targets": [
+        ["css=tr:nth-child(31) .checkbox", "css:finder"],
+        ["xpath=//tr[31]/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d859c221-afea-4692-b4d2-3c5219a422f0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Kinnita",
+      "targets": [
+        ["linkText=Kinnita", "linkText"],
+        ["css=.userdata_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[97]", "xpath:href"],
+        ["xpath=//tr[33]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "45e96cd1-a184-4e25-9da5-de93a040478f",
+    "name": "FR7_error",
+    "commands": [{
+      "id": "29e22c75-2b2f-4fb8-ba64-1d446f3e24eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a06bec0-88db-4f7b-92d4-1d8641f356ff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a37efe88-3b7a-460d-919d-ea0bedf2f195",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=bpoldoja:",
+      "targets": [
+        ["linkText=bpoldoja:", "linkText"],
+        ["css=.\\_header_personal_menu_account", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7959678-dd34-46ad-ae79-2147492d5f39",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Minu konto",
+      "targets": [
+        ["linkText=Minu konto", "linkText"],
+        ["css=.sidemenu_item:nth-child(2) > .sidemenu_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Minu konto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#view=userdata')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eec8cd23-b70e-4d73-a979-93cfd6cc36e8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=h1.userdata_datachange_row",
+      "targets": [
+        ["css=h1.userdata_datachange_row", "css"],
+        ["css=.userdata_block > .userdata_datachange_row", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7233f554-d65e-447b-a54e-8fb4f28cddd8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_lastname",
+      "targets": [
+        ["name=userdata_lastname", "name"],
+        ["css=input[name=\"userdata_lastname\"]", "css"],
+        ["css=.userdata_lastname", "css:finder"],
+        ["xpath=//input[@name='userdata_lastname']", "xpath:attributes"],
+        ["xpath=//tr[11]/td/div/input", "xpath:position"]
+      ],
+      "value": "Poldoja"
+    }, {
+      "id": "bbadf589-370b-4644-afbc-d46521647c80",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=tr:nth-child(31) .checkbox",
+      "targets": [
+        ["css=tr:nth-child(31) .checkbox", "css:finder"],
+        ["xpath=//tr[31]/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee958f70-2441-45d3-8de6-38aa415613b3",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Kinnita",
+      "targets": [
+        ["linkText=Kinnita", "linkText"],
+        ["css=.userdata_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[97]", "xpath:href"],
+        ["xpath=//tr[33]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9386908b-d7c9-49dc-920b-ad03d7de2c28",
+    "name": "FR8_correct",
+    "commands": [{
+      "id": "f3d18887-6b67-4824-9f26-25aa1c18340e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d4d1225-c7a1-4fd2-83d6-2682da08e023",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e08d9a70-f0c4-41f9-a55d-4184839dc0d9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.items-row-2:nth-child(2) .\\_header_personal_menu",
+      "targets": [
+        ["css=.items-row-2:nth-child(2) .\\_header_personal_menu", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[10]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b69438d2-0a58-4b66-b19e-2f3d7699f36c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Lisa muu sündmuse pileteid",
+      "targets": [
+        ["linkText=Lisa muu sündmuse pileteid", "linkText"],
+        ["css=.shoppingbasket_overview_bottom_left > .button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[71]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8d091e-a170-40b4-838b-380c2fe00163",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//img[contains(@src,'https://www.piletilevi.ee/imageGenerator/concertShort/48d4066d32263ebaeb605c563940e5bf')]",
+      "targets": [
+        ["css=.event_short:nth-child(15) .lazy_image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.piletilevi.ee/imageGenerator/concertShort/48d4066d32263ebaeb605c563940e5bf')]", "xpath:img"],
+        ["xpath=//div[@id='content-58284']/div/div[2]/div/div/div/div/div[15]/a/span/img", "xpath:idRelative"],
+        ["xpath=//div[15]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d60683a4-5f5f-4b81-8244-28f4b17df051",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//img[contains(@src,'https://www.piletilevi.ee/imageGenerator/concertShort/99331642a5ce45aa17e8068fa2ac24c6')]",
+      "targets": [
+        ["css=img.lazy_image.event_short_image", "css"],
+        ["css=.event_short:nth-child(1) .lazy_image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://www.piletilevi.ee/imageGenerator/concertShort/99331642a5ce45aa17e8068fa2ac24c6')]", "xpath:img"],
+        ["xpath=//span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d3c9769-c62e-4b0a-a2ff-5634f024f7b5",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=span.button_stamp_colored.stamp_horizontal",
+      "targets": [
+        ["css=span.button_stamp_colored.stamp_horizontal", "css"],
+        ["css=.concert_details_main_buy_button .button_stamp_colored", "css:finder"],
+        ["xpath=//div[3]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91650f9f-1223-43b3-88c6-b0c142346a8c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.priceclass_selector_row:nth-child(2) .button_plus",
+      "targets": [
+        ["css=.priceclass_selector_row:nth-child(2) .button_plus", "css:finder"],
+        ["xpath=(//a[contains(text(),'+')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '')])[62]", "xpath:href"],
+        ["xpath=//td[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0830117a-192b-408b-8cbc-e0b0cba30518",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Lisa ostukorvi",
+      "targets": [
+        ["linkText=Lisa ostukorvi", "linkText"],
+        ["css=.priceclass_selector_submit", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "961931de-90ed-4b55-85d0-d78dcfeab025",
+    "name": "FR9_correct",
+    "commands": [{
+      "id": "370458f4-a9ff-495b-9bfd-92085e3c6f0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "240129c4-ae4f-454f-9fdd-e3c3d7c8326c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12bf9e99-97ad-4fc1-9286-5a2639ce89a7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca7d302-2a85-4662-826d-296c4e98490c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Unustasid parooli?",
+      "targets": [
+        ["linkText=Unustasid parooli?", "linkText"],
+        ["css=a.account_login_forgotten", "css"],
+        ["css=.account_login_forgotten", "css:finder"],
+        ["xpath=//a[contains(text(),'Unustasid parooli?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://shop.piletilevi.ee/public/?center=7&lang=est&design=piletilevi#view=passwordform')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b14f85-0d9f-4f6b-aa17-88b86216976a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_firstname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_firstname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_firstname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Berit"
+    }, {
+      "id": "a78b4cfa-e990-4c95-815e-d26d3617017b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_lastname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_lastname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_lastname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Poldoja"
+    }, {
+      "id": "5e3aa297-703c-4e9b-ace6-53209161cd77",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_email",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_email", "css:finder"],
+        ["xpath=(//input[@name='passwordform_email'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "berit642@gmail.com"
+    }, {
+      "id": "45ad104c-a70a-4c9b-9adb-cfe4a50ab6e6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Saada uus parool",
+      "targets": [
+        ["linkText=Saada uus parool", "linkText"],
+        ["css=.passwordform_block:nth-child(1) .passwordform_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[78]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2d8c119b-d493-4d69-bf3f-f99fc4e9e5ba",
+    "name": "FR9_error",
+    "commands": [{
+      "id": "07208df2-0a9c-4f7c-a766-27857dfd0d86",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c3deeb1-0583-4355-9d32-e81fde0605e1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca829de4-5081-4b2c-88ee-696e4fd452ea",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b6330bf-668a-4739-b708-6d798b7b4bf7",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Unustasid parooli?",
+      "targets": [
+        ["linkText=Unustasid parooli?", "linkText"],
+        ["css=a.account_login_forgotten", "css"],
+        ["css=.account_login_forgotten", "css:finder"],
+        ["xpath=//a[contains(text(),'Unustasid parooli?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://shop.piletilevi.ee/public/?center=7&lang=est&design=piletilevi#view=passwordform')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb288812-817f-4138-a476-10f6faaf1ddb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_firstname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_firstname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_firstname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Berit"
+    }, {
+      "id": "60cfe49c-081f-49b2-817f-3296887d8caa",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_lastname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_lastname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_lastname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Poldoja"
+    }, {
+      "id": "1826da17-c786-4360-9d47-8f0ed3a55b4d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_email",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_email", "css:finder"],
+        ["xpath=(//input[@name='passwordform_email'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "berit@gmail.com"
+    }, {
+      "id": "3b52f796-bf85-4c1b-9811-a439051e8688",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Saada uus parool",
+      "targets": [
+        ["linkText=Saada uus parool", "linkText"],
+        ["css=.passwordform_block:nth-child(1) .passwordform_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[78]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d2ecad8d-1b14-48df-bfd3-65501bff59b4",
+    "name": "FR10_error",
+    "commands": [{
+      "id": "a9b305dc-5432-4ce5-95ac-1da8ed49140f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51153044-f507-4485-a4b8-d9d1ac66e98c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccd4f5a6-d6b3-4e84-998b-569bf9efede9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Berit:",
+      "targets": [
+        ["linkText=Berit:", "linkText"],
+        ["css=.\\_header_personal_menu_account", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e68e6f-da25-48ec-89a5-bb680d0f5c35",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Logi välja",
+      "targets": [
+        ["linkText=Logi välja", "linkText"],
+        ["css=a.sidemenu_item_link.sidemenu_item_link_logout", "css"],
+        ["css=.sidemenu_item_link_logout", "css:finder"],
+        ["xpath=//a[contains(text(),'Logi välja')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[19]", "xpath:href"],
+        ["xpath=//div[2]/div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bfc489ab-7ffb-4544-933f-57c6be8c50e1",
+    "name": "FR9_error2",
+    "commands": [{
+      "id": "32e70120-1c39-4aed-8427-bcf83ee249f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed872002-b753-4c70-8706-bb5cbfd4e0ec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdaea441-bfcc-42d3-a7e3-664bfef1fe92",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d90cba97-7813-455e-9ea3-26eaccdcd71a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Unustasid parooli?",
+      "targets": [
+        ["linkText=Unustasid parooli?", "linkText"],
+        ["css=a.account_login_forgotten", "css"],
+        ["css=.account_login_forgotten", "css:finder"],
+        ["xpath=//a[contains(text(),'Unustasid parooli?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://shop.piletilevi.ee/public/?center=7&lang=est&design=piletilevi#view=passwordform')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e79a9c6-d272-4db4-b9bb-30ab828bcc10",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_firstname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_firstname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_firstname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Brit"
+    }, {
+      "id": "479499b2-5aa1-471f-bea4-5d2bdb8836e5",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_lastname",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_lastname", "css:finder"],
+        ["xpath=(//input[@name='passwordform_lastname'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "P"
+    }, {
+      "id": "f7ca6181-0f64-459e-b28a-24dc718629f6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.passwordform_block:nth-child(1) .passwordform_email",
+      "targets": [
+        ["css=.passwordform_block:nth-child(1) .passwordform_email", "css:finder"],
+        ["xpath=(//input[@name='passwordform_email'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div[4]/div/input", "xpath:position"]
+      ],
+      "value": "berit642@gmail.com"
+    }, {
+      "id": "546d2a45-40ea-4009-8e20-46d85446a4d6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Saada uus parool",
+      "targets": [
+        ["linkText=Saada uus parool", "linkText"],
+        ["css=.passwordform_block:nth-child(1) .passwordform_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[78]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "217df00a-b0ba-4320-9a99-b6709b3ca501",
+    "name": "FR2_error2",
+    "commands": [{
+      "id": "f73d7b2a-11f8-4b05-8044-e80be3a9684f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d0e565f-d453-4ab9-87ba-d29e0b2cd66f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75052d3f-5be2-4709-afe4-fd7c3718e473",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.slidingtabs_item:nth-child(4)",
+      "targets": [
+        ["css=.slidingtabs_item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Teater')]", "xpath:link"],
+        ["xpath=//div[@id='module_203586']/div/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.piletilevi.ee/est/piletid/teater/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f84415a-3d80-40af-9bd4-d1ba27608585",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=span.concerts_filter_date_calendar_input_text.concerts_filter_date_calendar_start_label",
+      "targets": [
+        ["css=span.concerts_filter_date_calendar_input_text.concerts_filter_date_calendar_start_label", "css"],
+        ["css=.concerts_filter_date_calendar_start_label", "css:finder"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac916c02-2726-48ee-8189-cadb38734f21",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "xpath=//tr[5]/td[6]/span",
+      "targets": [
+        ["css=.calendar_selector_hovered > span", "css:finder"],
+        ["xpath=//tr[5]/td[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc55d3ae-52eb-4fa2-bffd-b343ad20e61a",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=span.concerts_filter_date_calendar_input_text.concerts_filter_date_calendar_end_label",
+      "targets": [
+        ["css=div.concerts_filter_date_background", "css"],
+        ["css=.concerts_filter_date_background", "css:finder"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "342ebbb6-fc65-407d-ad90-fbce020b2c37",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "xpath=//div[3]/div[2]/div/div[3]/table/tbody/tr[5]/td[7]/span",
+      "targets": [
+        ["css=.calendar_selector_hovered > span", "css:finder"],
+        ["xpath=//div[3]/div[2]/div/div[3]/table/tbody/tr[5]/td[7]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80c6dee9-ec21-4120-9cf9-eabec6bae58f",
+    "name": "FR7_error2",
+    "commands": [{
+      "id": "abb87927-e37a-494a-8e01-f0c100b39b10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3e07b51-5325-40a4-a42b-85d9727d3026",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "817d824e-727c-4811-856d-a65715669dc8",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Berit:",
+      "targets": [
+        ["linkText=bpoldoja:", "linkText"],
+        ["css=.\\_header_personal_menu_account", "css:finder"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98799f65-9646-48e6-b80f-5898ec426153",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Minu konto",
+      "targets": [
+        ["linkText=Minu konto", "linkText"],
+        ["css=.sidemenu_item:nth-child(2) > .sidemenu_item_link", "css:finder"],
+        ["xpath=//a[contains(text(),'Minu konto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '#view=userdata')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "678c1527-8001-421a-871f-3e6c6a4f46c9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=h1.userdata_datachange_row",
+      "targets": [
+        ["css=h1.userdata_datachange_row", "css"],
+        ["css=.userdata_block > .userdata_datachange_row", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e820c974-dcbf-4b08-8412-423439aa1471",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_oldpassword",
+      "targets": [
+        ["name=userdata_oldpassword", "name"],
+        ["css=input[name=\"userdata_oldpassword\"]", "css"],
+        ["css=.userdata_oldpassword", "css:finder"],
+        ["xpath=//input[@name='userdata_oldpassword']", "xpath:attributes"],
+        ["xpath=//div[4]/div/table/tbody/tr[4]/td/div/input", "xpath:position"]
+      ],
+      "value": "minuparool1"
+    }, {
+      "id": "c52d2825-7663-435d-9637-b1d404e9bf2e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_newpassword",
+      "targets": [
+        ["name=userdata_newpassword", "name"],
+        ["css=input[name=\"userdata_newpassword\"]", "css"],
+        ["css=.userdata_newpassword", "css:finder"],
+        ["xpath=//input[@name='userdata_newpassword']", "xpath:attributes"],
+        ["xpath=//div[4]/div/table/tbody/tr[5]/td/div/input", "xpath:position"]
+      ],
+      "value": "minuparool2"
+    }, {
+      "id": "5f68ac0e-ec3f-4bc6-b5be-24d17057aa9d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=userdata_password2",
+      "targets": [
+        ["name=userdata_password2", "name"],
+        ["css=input[name=\"userdata_password2\"]", "css"],
+        ["css=.userdata_password2", "css:finder"],
+        ["xpath=//input[@name='userdata_password2']", "xpath:attributes"],
+        ["xpath=//div[4]/div/table/tbody/tr[8]/td/div/input", "xpath:position"]
+      ],
+      "value": "minuparool3"
+    }, {
+      "id": "5ae9f0e5-a35e-4542-b852-4f4e3fbbb590",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=tr:nth-child(31) .checkbox",
+      "targets": [
+        ["css=tr:nth-child(31) .checkbox", "css:finder"],
+        ["xpath=//tr[31]/td/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9591369-11f2-4a22-a870-2d50132ea12d",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Kinnita",
+      "targets": [
+        ["linkText=Kinnita", "linkText"],
+        ["css=.userdata_button", "css:finder"],
+        ["xpath=(//a[contains(@href, '')])[97]", "xpath:href"],
+        ["xpath=//tr[33]/td/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4d1d46dc-6ef6-4e90-a17f-608142d598a7",
+    "name": "FR1_error2",
+    "commands": [{
+      "id": "e13b7d97-e7ac-4883-9ea4-d411f1abc473",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bae9f30c-0caf-470a-9d31-02b00ebe4f5b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21908b44-ce1e-4712-bf38-58d033fd7eee",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.\\_header_personal_menu_account > .\\_header_personal_menu_text",
+      "targets": [
+        ["css=.\\_header_personal_menu_account > .\\_header_personal_menu_text", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[3]/div/div/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c27a2846-1f6f-4a32-bb31-e882cd073089",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input[name=\"username\"]", "css"],
+        ["css=.account_register_username", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "kasutajanimi19999"
+    }, {
+      "id": "3969eee9-7b13-4639-8735-c144e18c9321",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["css=.account_register_password", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "parool"
+    }, {
+      "id": "be1a4d22-43b9-4dd8-bff8-1a8c7fe5b969",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password2",
+      "targets": [
+        ["name=password2", "name"],
+        ["css=input[name=\"password2\"]", "css"],
+        ["css=.account_register_password2", "css:finder"],
+        ["xpath=//input[@name='password2']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "parool"
+    }, {
+      "id": "608d9a03-8884-4bb8-8567-bda93ae1ebdb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=input[name=\"email\"]", "css"],
+        ["css=.account_register_email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "kasutaja@gmail.com"
+    }, {
+      "id": "e1cfe660-66f4-48f8-be08-354131fee299",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=input[name=\"phone\"]", "css"],
+        ["css=.account_register_phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "5123456"
+    }, {
+      "id": "ec7bb929-c8d4-49b0-bb6c-afcc7062c8b0",
+      "comment": "",
+      "command": "clickAt",
+      "target": "xpath=//div[5]",
+      "targets": [
+        ["css=div.recaptcha-checkbox-checkmark", "css"],
+        ["css=.recaptcha-checkbox-checkmark", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86dbe68f-ad0f-4547-88eb-3d069acb96d1",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.account_register_button",
+      "targets": [
+        ["css=.account_register_button", "css:finder"],
+        ["xpath=//input[@value='Registreeru']", "xpath:attributes"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e6a4efce-07a6-4b16-b9f3-8a51a46d8b98",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["66d1ba84-59a6-4edb-bb2f-2988804d710d"]
+  }],
+  "urls": ["https://www.piletilevi.ee/"],
+  "plugins": []
+}
